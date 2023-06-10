@@ -1,6 +1,6 @@
 package main
 
-import "golang_patterns/Decorator"
+import "golang_patterns/Facade"
 
 func main() {
 	//Factory.GunMain()
@@ -9,5 +9,6 @@ func main() {
 	//Adapter.AdapterMain()
 	//Bridge.MainBridge()
 	//Composite.MainComposite()
-	Decorator.MainDecorator()
+	//Decorator.MainDecorator()
+	Facade.MainFacade()
 }
