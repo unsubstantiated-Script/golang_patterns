@@ -1,8 +1,11 @@
 package main
 
-import "golang_patterns/Prototype"
+import (
+	"golang_patterns/Singleton"
+)
 
 func main() {
 	//Factory.GunMain()
-	Prototype.PrototypeMain()
+	//Prototype.PrototypeMain()
+	Singleton.SingletonMainStart()
 }
