@@ -1,6 +1,6 @@
 package main
 
-import "golang_patterns/Composite"
+import "golang_patterns/Decorator"
 
 func main() {
 	//Factory.GunMain()
@@ -8,5 +8,6 @@ func main() {
 	//Singleton.MainSingleton()
 	//Adapter.AdapterMain()
 	//Bridge.MainBridge()
-	Composite.MainComposite()
+	//Composite.MainComposite()
+	Decorator.MainDecorator()
 }
