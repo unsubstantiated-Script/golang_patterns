@@ -1,11 +1,10 @@
 package main
 
-import (
-	"golang_patterns/Singleton"
-)
+import "golang_patterns/Adapter"
 
 func main() {
 	//Factory.GunMain()
 	//Prototype.PrototypeMain()
-	Singleton.SingletonMainStart()
+	//Singleton.MainSingleton()
+	Adapter.AdapterMain()
 }
