@@ -2,7 +2,7 @@ package Singleton
 
 import "fmt"
 
-func SingletonMain() {
+func MainSingleton() {
 	fmt.Println("Hello singleton")
 	for i := 0; i < 30; i++ {
 		go getInstance()
