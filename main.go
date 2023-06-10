@@ -1,11 +1,8 @@
 package main
 
-import (
-	"fmt"
-	"golang_patterns/Factory"
-)
+import "golang_patterns/Prototype"
 
 func main() {
-	fmt.Printf("hello love")
-	Factory.GunMain()
+	//Factory.GunMain()
+	Prototype.PrototypeMain()
 }
