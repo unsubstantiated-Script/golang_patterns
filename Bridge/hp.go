@@ -2,9 +2,9 @@ package Bridge
 
 import "fmt"
 
-type Epson struct{
+type Hp struct {
 }
 
-func (p *Epson) PrintFile() {
-	fmt.Println("Printing by an Epson Printer")
+func (p *Hp) PrintFile() {
+	fmt.Println("Printing by an Hp Printer")
 }

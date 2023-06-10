@@ -2,16 +2,15 @@ package Bridge
 
 import "fmt"
 
-type Mac struct {
+type Windows struct {
 	printer Printer
 }
 
-
-func (m *Mac) Print() {
-	fmt.Println("Print request for Mac")
+func (m *Windows) Print() {
+	fmt.Println("Print request for Windows")
 	m.printer.PrintFile()
 }
 
-func (m *Mac) SetPrinter(p Printer) {
+func (m *Windows) SetPrinter(p Printer) {
 	m.printer = p
 }
