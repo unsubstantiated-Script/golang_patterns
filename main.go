@@ -1,6 +1,6 @@
 package main
 
-import "golang_patterns/Facade"
+import "golang_patterns/Flyweight"
 
 func main() {
 	//Factory.GunMain()
@@ -10,5 +10,6 @@ func main() {
 	//Bridge.MainBridge()
 	//Composite.MainComposite()
 	//Decorator.MainDecorator()
-	Facade.MainFacade()
+	//Facade.MainFacade()
+	Flyweight.MainFlyweight()
 }
