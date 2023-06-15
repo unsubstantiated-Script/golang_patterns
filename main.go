@@ -1,6 +1,6 @@
 package main
 
-import "golang_patterns/Proxy"
+import "golang_patterns/ChainOfResponsibility"
 
 func main() {
 	//Factory.GunMain()
@@ -12,5 +12,6 @@ func main() {
 	//Decorator.MainDecorator()
 	//Facade.MainFacade()
 	//Flyweight.MainFlyweight()
-	Proxy.MainProxy()
+	//Proxy.MainProxy()
+	ChainOfResponsibility.ChainMain()
 }
