@@ -1,6 +1,6 @@
 package main
 
-import "golang_patterns/ChainOfResponsibility"
+import "golang_patterns/Command"
 
 func main() {
 	//Factory.GunMain()
@@ -13,5 +13,6 @@ func main() {
 	//Facade.MainFacade()
 	//Flyweight.MainFlyweight()
 	//Proxy.MainProxy()
-	ChainOfResponsibility.ChainMain()
+	//ChainOfResponsibility.ChainMain()
+	Command.MainCommand()
 }
