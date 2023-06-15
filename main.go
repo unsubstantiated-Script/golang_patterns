@@ -1,6 +1,6 @@
 package main
 
-import "golang_patterns/Flyweight"
+import "golang_patterns/Proxy"
 
 func main() {
 	//Factory.GunMain()
@@ -11,5 +11,6 @@ func main() {
 	//Composite.MainComposite()
 	//Decorator.MainDecorator()
 	//Facade.MainFacade()
-	Flyweight.MainFlyweight()
+	//Flyweight.MainFlyweight()
+	Proxy.MainProxy()
 }
