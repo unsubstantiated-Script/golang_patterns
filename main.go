@@ -1,6 +1,6 @@
 package main
 
-import "golang_patterns/Command"
+import "golang_patterns/Iterator"
 
 func main() {
 	//Factory.GunMain()
@@ -14,5 +14,6 @@ func main() {
 	//Flyweight.MainFlyweight()
 	//Proxy.MainProxy()
 	//ChainOfResponsibility.ChainMain()
-	Command.MainCommand()
+	//Command.MainCommand()
+	Iterator.MainIterator()
 }
