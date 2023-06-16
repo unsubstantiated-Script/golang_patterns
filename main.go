@@ -1,6 +1,6 @@
 package main
 
-import "golang_patterns/Iterator"
+import "golang_patterns/Mediator"
 
 func main() {
 	//Factory.GunMain()
@@ -15,5 +15,6 @@ func main() {
 	//Proxy.MainProxy()
 	//ChainOfResponsibility.ChainMain()
 	//Command.MainCommand()
-	Iterator.MainIterator()
+	//Iterator.MainIterator()
+	Mediator.MediatorMain()
 }
