@@ -1,7 +1,5 @@
 package main
 
-import "golang_patterns/Strategy"
-
 func main() {
 	//Factory.GunMain()
 	//Prototype.PrototypeMain()
@@ -20,5 +18,6 @@ func main() {
 	//Memento.MementoMain()
 	//Observer.MainObserver()
 	//State.MainState()
-	Strategy.StrategyMain()
+	//Strategy.StrategyMain()
+	//Template.TemplateMain()
 }
