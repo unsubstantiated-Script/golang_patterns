@@ -20,4 +20,5 @@ func main() {
 	//State.MainState()
 	//Strategy.StrategyMain()
 	//Template.TemplateMain()
+	//Visitor.VisitorMain()
 }
