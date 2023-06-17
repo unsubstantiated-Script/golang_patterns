@@ -1,5 +1,7 @@
 package main
 
+import "golang_patterns/Memento"
+
 func main() {
 	//Factory.GunMain()
 	//Prototype.PrototypeMain()
@@ -15,4 +17,5 @@ func main() {
 	//Command.MainCommand()
 	//Iterator.MainIterator()
 	//Mediator.MediatorMain()
+	Memento.MementoMain()
 }
