@@ -1,6 +1,6 @@
 package main
 
-import "golang_patterns/Memento"
+import "golang_patterns/Observer"
 
 func main() {
 	//Factory.GunMain()
@@ -17,5 +17,6 @@ func main() {
 	//Command.MainCommand()
 	//Iterator.MainIterator()
 	//Mediator.MediatorMain()
-	Memento.MementoMain()
+	//Memento.MementoMain()
+	Observer.MainObserver()
 }
