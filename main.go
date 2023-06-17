@@ -1,7 +1,5 @@
 package main
 
-import "golang_patterns/Visitor"
-
 func main() {
 	//Factory.GunMain()
 	//Prototype.PrototypeMain()
@@ -22,5 +20,5 @@ func main() {
 	//State.MainState()
 	//Strategy.StrategyMain()
 	//Template.TemplateMain()
-	Visitor.VisitorMain()
+	//Visitor.VisitorMain()
 }
