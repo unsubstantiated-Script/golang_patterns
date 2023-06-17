@@ -1,6 +1,6 @@
 package main
 
-import "golang_patterns/Observer"
+import "golang_patterns/State"
 
 func main() {
 	//Factory.GunMain()
@@ -18,5 +18,6 @@ func main() {
 	//Iterator.MainIterator()
 	//Mediator.MediatorMain()
 	//Memento.MementoMain()
-	Observer.MainObserver()
+	//Observer.MainObserver()
+	State.MainState()
 }
